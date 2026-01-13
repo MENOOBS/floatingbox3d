@@ -152,7 +152,7 @@ const FloatingBoxes = () => {
     // Setup MediaPipe Hands
     const hands = new Hands({
       locateFile: (file) => {
-        return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
+        return `/mediapipe/hands/${file}`;
       }
     });
 
